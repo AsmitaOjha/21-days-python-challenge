@@ -11,3 +11,10 @@ print()
 for i in range(1,15):
     print(" {0:2}'s square is {1:<6} and cube is {2:^6}".format(i,i**2,i**3))
 
+print("Pi is approximately: {0:12}".format(22/7))
+print("Pi is approximately: {0:<12f}".format(22/7))
+print("Pi is approximately: {0:<12.50f}".format(22/7))
+print("Pi is approximately: {0:<52.50f}".format(22/7))
+print("Pi is approximately: {0:<62.50f}".format(22/7))
+print("Pi is approximately: {0:<72.50f}".format(22/7))
+print("Pi is approximately: {0:<72.56f}".format(22/7))
