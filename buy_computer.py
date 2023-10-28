@@ -22,7 +22,11 @@ while current_choice!='0':
         # print("4: mouse")
         # print("5. speaker")
         # print("0: to finish")
-        for part in available_parts:
-            print("{0}:{1}".format(available_parts.index(part)+1, part))
+        #using for loop instead of 6 print statements 
+        # for part in available_parts:
+        #     print("{0}:{1}".format(available_parts.index(part)+1, part))
+        #using enumerate function
+        for number,part in enumerate(available_parts):
+            print("{0}: {1}".format(number+1, part))
     current_choice= input()
 print(computer_parts)
