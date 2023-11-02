@@ -7,3 +7,8 @@ print(sorted_number)
 print(numbers)
 numbers.sort()
 print(numbers)
+#remeber sorted() function makes a new list and assigns sorted numbers to this list
+#wherease sort() function sorts the list given to it simple.
+# another_sorted_numbers = numbers.sort()
+# print(numbers)
+# print(another_sorted_numbers)
