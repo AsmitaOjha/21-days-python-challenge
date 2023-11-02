@@ -12,3 +12,13 @@ print(numbers)
 # another_sorted_numbers = numbers.sort()
 # print(numbers)
 # print(another_sorted_numbers)
+
+names = ["Asmita",
+         "Aastha",
+         "Kapil",
+         "assu",
+         "jayanti",
+         "Rohit",
+         "aarohi"]
+names.sort(key=str.casefold)
+print(names)
