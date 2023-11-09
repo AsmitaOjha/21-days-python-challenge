@@ -10,3 +10,4 @@ print('''"The wind began to pick up. He knew that wind: people called it the lev
        I left my father, my mother, and the town castle behind. The have gotten used to my being away, and so have I. 
       The sheep will get used to my not being there, too, the boy thought.
       "''')
+print()
